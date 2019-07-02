@@ -1,0 +1,28 @@
+form {
+	text-align: center;
+}
+
+.error-message {
+	color: red;
+	text-align: center;
+}
+
+table {
+	width: 100%;
+
+	td {
+		transition: all 0.4s;
+	}
+
+	.main-rows {
+
+		&:hover {
+			cursor: pointer;
+
+			td {
+        color: #7B1FA2;
+			}
+			
+		}
+	}
+}
